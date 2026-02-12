@@ -1,0 +1,37 @@
+/* Estilização geral do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte */
+    background-color: #f4f6f8;      /* Cor de fundo da página */
+    padding: 30px;                  /* Espaçamento interno */
+}
+
+/* Estilização do título */
+h1 {
+    color: #333;            /* Cor do texto */
+    text-align: center;     /* Centraliza o texto */
+}
+
+/* Estilização da div onde o resultado será exibido */
+#result {
+    background-color: #fff;         /* Fundo branco */
+    padding: 15px;                  /* Espaçamento interno */
+    border-radius: 10px;            /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra leve */
+    width: 350px;                   /* Largura fixa */
+    margin: 20px auto;              /* Centraliza horizontalmente */
+}
+
+/* Estilização geral dos botões */
+button {
+    margin: 5px;                /* Espaço externo */
+    padding: 10px 15px;         /* Espaçamento interno */
+    font-size: 16px;            /* Tamanho do texto */
+    border-radius: 6px;         /* Bordas arredondadas */
+    border: none;               /* Remove borda padrão */
+    cursor: pointer;            /* Cursor de mãozinha */
+    background-color: #007bff;  /* Cor azul */
+    color: white;               /* Texto branco */
+    transition: 0.2s;           /* Animação suave */
+}
+
+/* Efeito ao passar o mouse no botão */
